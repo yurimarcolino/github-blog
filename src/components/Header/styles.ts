@@ -13,11 +13,11 @@ export const HeaderContent = styled.header`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 1.25rem;
 
   img {
-    width: 45px;
-    height: 40px;
+    width: 2.81rem;
+    height: 2.5rem;
   }
 
   h1 {
