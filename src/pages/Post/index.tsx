@@ -1,9 +1,12 @@
-import { PostContainer } from "./styles";
+import { markdown, PostBody } from './components/PostBody'
+import { PostInfo } from './components/PostInfo'
+import { PostContainer } from './styles'
 
 export function Post() {
   return (
     <PostContainer>
-      <h1>Post</h1>
+      <PostInfo />
+      <PostBody content={markdown} />
     </PostContainer>
   )
 }
