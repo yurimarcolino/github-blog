@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background: ${({ theme }) => theme.color['base-background']};
-    color: ${({ theme }) => theme.color["base-text"]};
+    color: ${({ theme }) => theme.color['base-text']};
     -webkit-font-smoothing: antialiased;
   }
 
@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button {
-    font-family: 'Nanito', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 1rem;
   }
